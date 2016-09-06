@@ -19,20 +19,45 @@ body {
 	overflow-x:hidden;
 }
 
+#bouquet {
+	width:60%;
+	height:90vh;
+	position: absolute;
+	margin-left: 300px;
+	float:left;
+	z-index: 1;
+	text-align:center;
+	top:1vh;
+/*	background-color: #000;*/
+}
+
+.flower-item {
+	display:inline-block;
+	height: 150px;
+	width:150px;
+	margin-top: 10px;
+	padding:35px;
+/*	background-color: white;
+*/
+}
+
 #flower {
 	background-image: url("images/flower.png");
-/*	background-color: #000;
-*/	position: relative;
-/*	float: left;
-*/	width: 100px;
+	position: relative;
+	width: 100px;
 	height: 100px;
 	margin-top: 10px;
 	background-size: 100%;
 	opacity: 20%;
 }
 
-/*#circle {
-
-}*/
-
+#flower2 {
+	background-image: url("images/flower2.png");
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	background-size: 100%;
+	opacity: 20%;
+}
 

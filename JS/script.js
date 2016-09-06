@@ -3,6 +3,7 @@ var seconds = 0;
 var rotateIncrement = 0;
 
 var animation = document.getElementById("flower");
+var animation2 = document.getElementById("flower2");
 
 var increment = 0;
 var direction = 0;
@@ -22,6 +23,8 @@ function timer () {
 		animation.style.transform = "rotate(" + rotateIncrement + "deg)"; 
 		animation.style.WebkitTransform = "rotate(" + rotateIncrement + "deg)"; //css webkit for chrome, etc. browsers
 		// console.log("Degrees: rotate(" + rotateIncrement + "deg)"); //need to add for -moz-, -ms-
+		animation2.style.transform = "rotate(" + rotateIncrement + 30 + "deg)"; 
+
 
 	}, 1000);
 }
